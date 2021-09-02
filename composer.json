@@ -1,0 +1,10 @@
+{
+    "description": "Yahei PHP fix for PHP7, PHP8",
+    "name": "nguyenanhung/yaheiphp",
+    "type": "library",
+    "homepage": "https://github.com/nguyenanhung/YaheiPHP-Fix",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6"
+    }
+}
