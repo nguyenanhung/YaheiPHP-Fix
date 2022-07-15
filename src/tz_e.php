@@ -1022,7 +1022,7 @@ if ($_GET['act'] == "rt") {
             <th class="w_top"><a href="#w_MySQL">MySQL</a></th>
             <th class="w_top"><a href="#w_function">Function</a></th>
             <th class="w_top"><a href="#w_mail">Mail</a></th>
-            <th class="w_top"><a href="http://www.yahei.net/tz/tz_e.zip">Download</a></th>
+            <th class="w_top"><a target="_blank" href="https://github.com/nguyenanhung/YaheiPHP-Fix/releases">Download</a></th>
         </tr>
     </table>
 
@@ -1796,7 +1796,7 @@ foreach ($able as $key => $value) {
 
     <table>
         <tr>
-            <td class="w_foot"><A HREF="http://www.Yahei.Net" target="_blank"><?php echo $title . $version; ?></A></td>
+            <td class="w_foot"><A HREF="https://github.com/nguyenanhung/YaheiPHP-Fix" target="_blank"><?php echo $title . $version; ?></A></td>
             <td class="w_foot"><?php $run_time = sprintf('%0.4f', microtime_float() - $time_start); ?>Processed in <?php echo $run_time ?> seconds. <?php echo memory_usage(); ?> memory usage.</td>
             <td class="w_foot"><a href="#w_top">TOP</a></td>
         </tr>
